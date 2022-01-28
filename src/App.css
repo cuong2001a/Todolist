@@ -50,7 +50,9 @@ ul{
   justify-content: space-between;
 }
 .complete{
-  opacity: 0.4;
+  /* background-color: #198754; */
+  background:#198754;;
+  /* opacity: 0.3; */
 }
 .todo_title{
   cursor: pointer;

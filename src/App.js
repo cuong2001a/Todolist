@@ -72,9 +72,9 @@ function App() {
   }
   const TodoSchema = Yup.object().shape({
     name: Yup.string()
-      .min(2, 'Too Short!')
-      .max(50, 'Too Long!')
-      .required('Required')
+      .min(2, 'Todo too Short !')
+      .max(50, 'To do too Long!')
+      .required('Required To do')
   });
   const formik = useFormik({
     initialValues: {
